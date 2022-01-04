@@ -6,18 +6,18 @@
 }
 
 section {
-  height: 100vh; /*it takes the whole screen space available*/
+  height: 100vh; /* it takes the whole screen space available*/
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  scroll-snap-align: start;
+  scroll-snap-align: start; /* this is the important part, add it to the children*/
 }
 
 .container {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: 100vh;
+  scroll-snap-type: y mandatory; /* specify direction [x,y, both] and type of snap [mandatory, proximity] */
+  overflow-y: scroll; /* add overflow in the same direction */
+  height: 100vh; /* specify the height */
 }
 
 .three {
