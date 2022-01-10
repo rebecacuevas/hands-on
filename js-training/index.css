@@ -1,0 +1,29 @@
+body {
+  background-color: midnightblue;
+  color: white;
+  background-size: cover;
+  font-family: "Lucida Sans", "Lucida Sans Regular", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: lightgray;
+  border: none;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", sans-serif;
+  font-size: large;
+  padding: 7px;
+  border-radius: 3px;
+}
